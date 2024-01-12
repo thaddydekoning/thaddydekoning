@@ -9,11 +9,11 @@ KOL development has stalled for a few years, but from here you can consider it m
 KOL creates very small applications: 
 - A rudimentary Delphi GUI example is about 14 kilobyte with system replacement, about 25 Kilobytes without system replacement
 - A rudimentary FreePascal GUI application renders about 50-60 Kilobytes
-- That meaans a KOL application is 10-20 times smaller than its LCL or VCL equivalents.
-- While size nay not matter too much nowadays, the resulting very fast start-up times by KOL applications is definitely an advantage.
+- That means a KOL application is 10-20 times smaller than its LCL or VCL equivalents.
+- While size may not matter too much nowadays, the resulting very fast start-up times by KOL applications are definitely an advantage.
 - KOL enables you to write UNICODE16 apps in older non-unicode Delphi versions 4-2007
-- KOL widgets are already fully UNICODE16, also on FreePascal/Lazarus
-- 
+- KOL widgets are all already fully UNICODE16 capable, also on FreePascal/Lazarus 
+
 The library was written by Vladimir Kladov with contributions from others.
 Its main targets are Windows 32 bit, Windows 64 bit and WinCE. Windows is supported up to and including Windows 11.
 There is very limited support for Linux GTK. This should be consired experimental and incomplete.
